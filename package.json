@@ -1,0 +1,37 @@
+{
+  "name": "mithril-es8",
+  "version": "1.0.0",
+  "description": "Fully ES8 version of mithril's Single Page Application Tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "markdown-to-html": "^0.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./test/tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoSoupForYou/MithrilEight.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JS",
+    "ES6",
+    "ES7",
+    "ES8",
+    "ES2015",
+    "ES2016",
+    "ES2017",
+    "node",
+    "npm",
+    "webpack",
+    "babel"
+  ],
+  "author": "Carlos F. Ramirez",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/NoSoupForYou/MithrilEight/issues"
+  },
+  "homepage": "https://github.com/NoSoupForYou/MithrilEight#readme"
+}
