@@ -19,7 +19,7 @@
     "webpack": "^3.4.1"
   },
   "scripts": {
-    "start": "webpack",
+    "start": "webpack --watch",
     "test": "mocha ./test/tests/**/*.js"
   },
   "repository": {
