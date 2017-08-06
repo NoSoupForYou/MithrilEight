@@ -2,6 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
+    devtool: "source-map",
     entry: "./src/index.js",
 
     output: {
@@ -22,8 +23,8 @@ module.exports = {
 
                 query: {
                     plugins: ["transform-runtime"],
-                    presets: ["es2015", "es2016", "es2017"]
-                }
+                    presets: ["es2015", "es2016", "es2017"],
+                },
             }
         ]
     }
